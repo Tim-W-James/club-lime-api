@@ -1,0 +1,6 @@
+services:
+  node-server:
+    build: .
+    ports:
+      - "3000:3000"
+    container_name: club-lime-api
